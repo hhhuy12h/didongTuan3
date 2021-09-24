@@ -14,10 +14,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        findViewById( R.id.button2 ).setOnClickListener( new View.OnClickListener() {
+        findViewById( R.id.button ).setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity( new Intent(MainActivity.this,MainActivitytrangchu_tree.class) );
+                startActivity( new Intent(MainActivity.this,dsbaihat.class) );
                 overridePendingTransition( R.anim.enter,R.anim.exit );
 
 

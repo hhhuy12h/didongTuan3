@@ -10,19 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".MainActivityDanhsach_tree"
+            android:name=".chaynhac"
             android:exported="true" />
         <activity
-            android:name=".MainActivitychiTiet_tree2"
+            android:name=".dsbaihat"
             android:exported="true" />
         <activity
-            android:name=".MainActivityChitiet_tree1"
+            android:name=".items"
             android:exported="true" />
         <activity
-            android:name=".MainActivitytrangchu_tree"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity2"
+            android:name=".loibaihat"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
